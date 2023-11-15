@@ -13,81 +13,119 @@
         <li><a href="#about">個人資料</a></li>
         <li><a href="#skill">專業技能</a></li>
         <li><a href="#experience">個人經歷</a></li>
-        <li><a href="#education">學習歷程</a></li>
+        <!--<li><a href="#education">學習歷程</a></li>-->
       </ul>
     </header>
 
     <main>
       <section id="about">
-        <div class="leftBlock">
-          <div class="leftBlock-photo">
-            <img src="img\Mug.jpg" alt="leftBlock-photo">
+        <div class="T">
+          <h1> 個人資料 </h1>
+        </div>
+        <div class="about-container">
+          <img class="about-img" src="img\Mug.jpg">
+          <div class="about-word">
+            <ul>
+              <li><p><strong>姓名</strong></p></li>
+              <p>何明叡</p>
+              <li><p><strong>個性</strong></p></li>
+              <p>隨和</p>
+              <li><p><strong>優點</strong></p></li>
+              <p>無</p>
+              <li><p><strong>缺點</strong></p></li>
+              <p>愛睡 懶</p>
+              <li><p><strong>興趣</strong></p></li>
+              <p>休息 音樂</p>
+            </ul>
           </div>
-        </div>
-        <div class="rightBlock">
-          <div class="about-tit">個性</div>
-          <div class="about-word">隨和</div>
-          <div class="about-tit">優點</div>
-          <div class="about-word">無</div>
-          <div class="about-tit">缺點</div>
-          <div class="about-word">愛睡 懶 </div>
-          <div class="about-tit">興趣</div>
-          <div class="about-word">休息 音樂</div>
-        </div>
+        </div>  
       </section>
 
       <section id="slogan">
         <p>不要因為睡懶覺而感到自責</p>
         <p>反正起來也創造不了什麼價值</p>
       </section>
-      
-      <section id="skill">
-        <div>Python <meter min="0" max="100" value="60">60%</meter><span> 60%</span></div>
-        <div>Java <meter min="0" max="100" value="40">40%</meter><span> 40%</span></div>
-        <div>HTML <meter min="0" max="100" value="30">30%</meter><span> 30%</span></div>
-        <div>C++:<meter min="0" max="100" value="60">60%</meter><span> 60%</span></div>
-        <div>C:<meter min="0" max="100" value="40">40%</meter><span> 40%</span></div>
-        <div>SAS:<meter min="0" max="100" value="20">20%</meter><span> 20%</span></div>
 
+      <section id="skill">
+        
+        <div class="T">
+          <h1> 專業技能 </h1>
+        </div>
+          <p class="progress-label">PYTHON</p>
+          <div class="progress-bar">
+            <progress value="60" max="100"></progress>
+            <span>60%</span>
+          </div>
+
+          <p class="progress-label">JAVA</p>
+          <div class="progress-bar">
+            <progress value="40" max="100"></progress>
+            <span>40%</span>
+          </div>
+
+          <p class="progress-label">HTML</p>
+          <div class="progress-bar">
+            <progress value="30" max="100"></progress>
+            <span>30%</span>
+          </div>
+
+          <p class="progress-label">CSS</p>
+          <div class="progress-bar">
+            <progress value="20" max="100"></progress>
+            <span>20%</span>
+          </div>
+
+          <p class="progress-label">C++</p>
+          <div class="progress-bar">
+            <progress value="60" max="100"></progress>
+            <span>60%</span>
+          </div>
+          
+        </div>
       </section>
 
+      
       <section id="experience">
-        <div class="experience1">
-            <div class="experience1-photo">
-                  <img src="img\SAS.png">
-            </div>
-            <div class="experience1-word">
-              <h2>大一上|大數據</h2>
-                <p>
-                  內文<br>
-                </p>
-            </div>
+        <div class="T">
+          <h1> 個人經歷 </h1>
+        </div>
+        
+        <div class="experience1-container">
+          <img class="experience1-img" src="img\SAS.png">
+              <div class="experience1-word" >
+                  <p><strong>大一上|大數據</strong></p><br>
+                  <p>先利用Excel把資料分類好</p>
+                  <p>並增加DW值上去</p>
+                  <p>來處理時間序列的問題</p>
+                  <p>接著用SAS寫入並處理資料</p>
+                  <p>最後就能看出資料間的相關性</p>
+              </div>
         </div>
 
-        <div class="experience2">
-          <div class="experience2-photo">
-                <img src="img\management.JPG">
-          </div>
-          <div class="experience2-word">
-            <h2>大一下|管理學</h2>
-              <p>
-                內文<br>
-              </p>
-          </div>
+        <div class="experience2-container">
+          <img class="experience2-img" src="img\management.JPG">
+              <div class="experience2-word" >
+                  <p><strong>大一下|管理學</strong></p><br>
+                  <p>我們的服務內容是</p>
+                  <p>教年長者用電子產品</p>
+                  <p>雖然表面上的目的是這樣</p>
+                  <p>但實際上是陪伴長者</p>
+                  <p>提供一個互相交流的機會</p>
+              </div>
         </div>
 
-        <div class="experience3">
-          <div class="experience3-photo">
-                <img src="img\violin.JPG">
-          </div>
-          <div class="experience3-word">
-            <h2>課外|弦樂團</h2>
-              <p>
-                內文<br>
-              </p>
-          </div>
+        <div class="experience3-container">
+          <img class="experience3-img" src="img\violin.JPG">
+              <div class="experience3-word" >
+                  <p><strong>課外|弦樂團</strong></p>
+                  <p>從我國小時就加入弦樂團</p>
+                  <p>一路到上大學</p>
+                  <p>過程中讓我學到了許多東西</p>
+                  <p>如何堅持、如何與他人合作</p>
+                  <p>不要不練基本功</p>
+                  <p>基本功是一切的來源</p>
+              </div>
         </div>
-
       </section>
     </main>
     
